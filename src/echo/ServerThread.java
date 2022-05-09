@@ -51,9 +51,9 @@ public class ServerThread extends Thread {
 				
 				if(msg == null) {
 					System.out.println("<서버종료>");
-					br.close();
-					bw.close();
-					socket.close();
+					//br.close();
+					//bw.close();
+					//socket.close();
 					break;
 				}
 				
